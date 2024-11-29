@@ -1,0 +1,149 @@
+/* Resetting default styles */
+* {
+    margin: 50;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    background-image: url('https://postgradomedicina.com/wp-content/uploads/psicologia-infantil-1.jpg');
+    color: rgb(17, 17, 17);
+    padding: 90px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5 rem;
+}
+
+/* Sección de Conceptos */
+#conceptos {
+    margin-top: 40px;
+}
+
+#conceptos h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#conceptos article {
+    margin-bottom: 20px;
+}
+
+#conceptos h3 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+#conceptos p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Sección de Comentarios */
+#comentarios {
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#comentarios h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Lista de comentarios */
+#comentarios-lista {
+    margin-top: 20px;
+}
+
+.comentario {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.comentario strong {
+    color: #4CAF50;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.redes-sociales {
+    list-style: none;
+    padding: 0;
+}
+
+.redes-sociales li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.redes-sociales a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.redes-sociales a:hover {
+    color: #4CAF50;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 768px;
+    height: 432px;
+}
